@@ -1,12 +1,12 @@
 import streamlit as st
-from audiorecorder import audiorecorder
+from audio_recorder_streamlit import audio_recorder # Correct import
 from googletrans import Translator, LANGUAGES
 from gtts import gTTS
 import speech_recognition as sr
 from io import BytesIO
 
 def main():
-    st.title("🎙️ Multi-Language Audio Hub")
+    st.title(" Multi-Language Audio Hub")
     st.subheader("Record -> Extract -> Translate -> Speak")
 
     # 1. Audio Recording Section
